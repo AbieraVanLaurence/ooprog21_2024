@@ -18,20 +18,20 @@ class TableAndChairs
 public class Triangle {
 
     public static void main(String[] args) {
-        // Number of rows for the triangle
+
         int rows = 7;
 
-        // Outer loop controls the number of rows
+       
         for (int i = 1; i <= rows; i++) {
-            // Inner loop prints spaces for alignment
+           
             for (int j = rows - i; j > 0; j--) {
                 System.out.print(" ");
             }
-            // Inner loop prints the letter T
+           
             for (int k = 1; k <= i; k++) {
                 System.out.print("T ");
             }
-            // Move to the next line after each row
+           
             System.out.println();
         }
     }
