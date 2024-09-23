@@ -11,7 +11,10 @@ public class CarlysEventPrice {
         double pricePerGuest = 35.0;
         double totalPrice = numGuests * pricePerGuest;
 
-        System.out.println("\n* Carly's makes the food that makes\n* it a party.");
+        System.out.println("\n*************************************");
+        System.out.println("* Carly's makes the food that makes   *");
+        System.out.println("* it a party.                       *");
+        System.out.println("*************************************");
 
         System.out.println("\nNumber of guests: " + numGuests);
         System.out.println("Price per guest: $" + pricePerGuest);
@@ -19,5 +22,6 @@ public class CarlysEventPrice {
 
         boolean isLargeEvent = numGuests >= 50;
         System.out.println("Is a large event: " + isLargeEvent);
+        System.out.println("*************************************");
     }
 }
